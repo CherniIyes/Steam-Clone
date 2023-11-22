@@ -1,16 +1,16 @@
 body {
-  
-background-image: url(img/gif/60b3fcd5d39627521827ac223d4e118a99b00e0e-1920x1080-transformed.jpg);
+  background-color: #171a21 ;
+/* background-image: url(img/gif/60b3fcd5d39627521827ac223d4e118a99b00e0e-1920x1080-transformed.jpg);
 background-repeat: no-repeat;
-background-size: 100%;
+background-size: cover; */
 }
 
 .login-container {
-  background-color: rgba(13, 13, 14, .95);
+  background-color: #171a21;
   padding: 20px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   /* box-shadow: 0 0 10px rgba(121, 11, 11, 0.1); */
-  width: 600px;
+  width: 630px;
   height: 280px;
   text-align: center;
 }
@@ -26,8 +26,8 @@ background-size: 100%;
   margin: 8px 0;
   box-sizing: border-box;
   border: 1px solid #ccc;
-  border-radius: 4px;
-  font-family: ;
+  /* border-radius: 4px; */
+  font-style: italic;
 }
 
 .password {
@@ -39,16 +39,16 @@ background-size: 100%;
   margin: 8px 0;
   box-sizing: border-box;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  /* border-radius: 4px; */
 }
 
-button {
+.sign {
   width: 200px;
   background-color: rgb(22, 50, 163);
   color: white;
   padding: 10px 15px;
   border: none;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   cursor: pointer;
   position: relative;
   top: 120px;
@@ -60,6 +60,7 @@ button:hover {
 }
 
 .name {
+  color: rgb(33, 63, 182);
   position: relative;
   bottom: 100px;
   right: 130px;
@@ -73,12 +74,30 @@ button:hover {
 
 .login-container{
   position: relative;
-  top: 300px;
+  bottom: 450px;
   left: 600px;
 }
 
 .Qr{
   position: relative;
-  left: 1000px;
-  top: 22px;
+  left: 1035px;
+  bottom: 725px;
+}
+
+.soura{
+  position: relative;
+  top: 100px;
+  width: 1850px;
+  height: 700px;
+}
+.makeacc{
+  position: relative;
+  bottom: 340px;
+  left: 500px;
+  width: 200px;
+  background-color: rgb(22, 50, 163);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+cursor: pointer;
 }
