@@ -1,0 +1,11 @@
+body{
+  background-image: url(img/Dirt_background_BE1.webp);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.back{
+  position: relative;
+  top: 120px;
+  width: 1870px;
+  height: 800px;
+}
