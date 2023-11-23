@@ -15,7 +15,7 @@ $(document).ready(function () {
       event.preventDefault()
     } else {
       alert('Loading')
-      window.location.href = "http://127.0.0.1:5500/home_page/index2.html"
+      window.location.href = "http://127.0.0.1:5500/home_page/index.html"
       // window.location.replace("http://127.0.0.1:5500/Steam-Clone/home_page/index.html")
       // window.location.assign("http://127.0.0.1:5500/Steam-Clone/home_page/index.html");
 
@@ -28,7 +28,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.makeacc').on('click', function (event) {
-    window.location.href = "http://127.0.0.1:5500/Steam-Clone/create%20account/create_account.html"
+    window.location.href = "http://127.0.0.1:5500/create%20account/create_account.html"
 
   });
 });
