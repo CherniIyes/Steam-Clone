@@ -23,8 +23,6 @@
 $(document).ready(function () {
 
   function validatePassword(pass) {
-    // Add your password criteria here
-    // For example, at least 8 characters, including at least one uppercase letter, one lowercase letter, and one digit
     const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
     return passwordRegex.test(pass);
   }
