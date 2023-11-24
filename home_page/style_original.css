@@ -329,5 +329,10 @@ input {
   }
 }
 
+.avatar{
+  cursor: pointer;
+}
+
+
 
 /* lol */
