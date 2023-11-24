@@ -63,13 +63,15 @@ button:hover {
   color: rgb(33, 63, 182);
   position: relative;
   bottom: 100px;
-  right: 130px;
+  right: 145px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .pass {
   position: relative;
   bottom: 12px;
-  right: 365px;
+  right: 360px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .login-container{
@@ -100,4 +102,26 @@ button:hover {
   padding: 10px 15px;
   border: none;
 cursor: pointer;
+}
+
+.msg{
+  position: relative;
+  bottom: 380px;
+  left: 660px;
+  font-weight: 900;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.davdouv{
+  position: relative;
+  left: 150px;
+  width: 400px;
+}
+h4{
+  position: relative;
+  bottom: 430px;
+  left: 1100px;
+  width: 300px;
+  color: #262627;
 }
